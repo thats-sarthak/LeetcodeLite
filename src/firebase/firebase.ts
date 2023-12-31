@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6wh6ykL0kv1aBuxmZc0can0CxPvawSts",
-  authDomain: "leetcode-lite.firebaseapp.com",
-  projectId: "leetcode-lite",
-  storageBucket: "leetcode-lite.appspot.com",
-  messagingSenderId: "432342654658",
-  appId: "1:432342654658:web:8cc0e419369c0db2b0e55b",
+  apiKey: "AIzaSyCL2_HTy6CsnKmDfkiigCRxBNSZyVwCr_0",
+  authDomain: "leetcode-c30e1.firebaseapp.com",
+  projectId: "leetcode-c30e1",
+  storageBucket: "leetcode-c30e1.appspot.com",
+  messagingSenderId: "977399024449",
+  appId: "1:977399024449:web:1df9cc18492a8d626c6fc0",
 };
 
 const app = !getApps.length ? initializeApp(firebaseConfig) : getApp();
